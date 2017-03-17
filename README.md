@@ -32,3 +32,12 @@ Use Doxygen-style function documentation.
 
 You should approach this project as you would if you worked at Cricut in terms of quality, style,
 and performance.
+
+
+# Contents
+
+main.cpp (main c++ file)
+main.exe (main compiled executable)
+input.txt (contains list of text files to load into program)
+test files (contain text to read from)
+
