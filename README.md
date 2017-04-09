@@ -11,14 +11,14 @@ Using C++, write a program to do the following:
 
 For instance, if the first file (input.txt) contained a single line: test.txt
 
-And that file contained the text: This is only a test. A *very* short test!
+And that file contained the text: `This is only a test. A *very* short test!`
 
-Running the program:
+### Running the program:
 
 > ./counter input.txt output.txt
 
 Would result in an output file (output.txt) that looks like:
-
+```
 a 2
 test 2
 is 1
@@ -26,7 +26,7 @@ only 1
 short 1
 this 1
 very 1
-
+```
 You can use STL, but avoid usage of third-party libraries. Note that although the above example is frequency and alphabetically sorted, only frequency sorting is required. For purposes of this problem, you can assume all valid input files will be UTF8 encoded English text.
 Use Doxygen-style function documentation.
 
@@ -34,10 +34,10 @@ You should approach this project as you would if you worked at Cricut in terms o
 and performance.
 
 
-# Contents
+### Contents
 
-main.cpp (main c++ file)
-main.exe (main compiled executable)
-input.txt (contains list of text files to load into program)
-test files (contain text to read from)
+###### main.cpp (main c++ file)
+###### main.exe (main compiled executable)
+###### input.txt (contains list of text files to load into program)
+###### test files (contain text to read from)
 
